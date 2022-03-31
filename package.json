@@ -1,17 +1,17 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shreyaskinage/react-electron-auto-updater.git"
+    "url": "https://github.com/shreyaskinage/electron-auto-update-example.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "build": "electron-builder build --linux --publish never",
+    "deploy": "electron-builder build --linux --publish always"
   },
   "author": "",
   "license": "ISC",
